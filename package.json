@@ -1,0 +1,33 @@
+{
+  "name": "metalsmith-example",
+  "version": "1.0.0",
+  "description": "an example of metalsmith",
+  "dependencies": {
+    "handlebars": "^4.0.10",
+    "metalsmith": "^2.3.0",
+    "metalsmith-layouts": "^1.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "node build.js",
+    "pretest": "npm run build",
+    "test": "echo passed"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsw0108/metalsmith-example.git"
+  },
+  "keywords": [
+    "metalsmith",
+    "example"
+  ],
+  "author": "wsw0108",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wsw0108/metalsmith-example/issues"
+  },
+  "homepage": "https://github.com/wsw0108/metalsmith-example#readme"
+}
