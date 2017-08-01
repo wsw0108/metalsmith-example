@@ -1,6 +1,6 @@
 machine:
   pre:
-    - apt-get install -y tree
+    - sudo apt-get install -y tree
   node:
     version: 6
 
