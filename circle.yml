@@ -2,6 +2,10 @@ machine:
   node:
     version: 6
 
+dependencies:
+  pre:
+    - git clone https://github.com/wsw0108/site-example $HOME/site-example
+
 deployment:
   master:
     branch: master
