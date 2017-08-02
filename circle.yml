@@ -6,7 +6,7 @@ machine:
 
 dependencies:
   pre:
-    - git clone https://${GH_TOKEN}:x-oauth-basic@github.com/wsw0108/site-example $HOME/site-example
+    - git clone https://github.com/wsw0108/site-example $HOME/site-example
 
 deployment:
   master:
