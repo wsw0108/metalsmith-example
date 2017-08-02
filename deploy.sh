@@ -2,9 +2,10 @@
 
 uname -a
 pwd
-tree $HOME/site-example
-git config --global user.email "deploy@circle-ci.org"
-git config --global user.name "Deployment Bot"
-git -C $HOME/site-example add $HOME/site-example/example1
-git -C $HOME/site-example commit -m "update example1"
-git -C $HOME/site-example push
+cd $HOME/site-example
+tree .
+git config --global user.email "$GH_EMAIL"
+git config --global user.name "$GH_NAME"
+git add example1
+git commit -m "update example1"
+git push --force origin gh-pages
