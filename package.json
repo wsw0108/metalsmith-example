@@ -5,12 +5,14 @@
   "dependencies": {},
   "devDependencies": {
     "handlebars": "^4.0.10",
+    "i18next": "^8.4.3",
+    "i18next-sync-fs-backend": "^1.0.0",
     "metalsmith": "^2.3.0",
     "metalsmith-assets": "^0.1.0",
     "metalsmith-debug": "^1.1.0",
-    "metalsmith-i18next": "^0.2.20",
     "metalsmith-layouts": "^1.8.1",
-    "metalsmith-rootpath": "^1.0.4"
+    "metalsmith-rootpath": "^1.0.4",
+    "standard": "^10.0.3"
   },
   "scripts": {
     "build": "node build.js",
